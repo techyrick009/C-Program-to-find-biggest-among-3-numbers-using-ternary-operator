@@ -1,0 +1,30 @@
+
+/*
+ *  Author: Techyrickcom
+ */
+
+#include<stdio.h> 
+//#include 
+
+void main() {
+
+int i,max;
+int arr[2];
+
+//clrscr();
+
+
+for(i=0 ; i <=2 ; i++) {
+
+       printf("\n Enter no.%d : ", i+1);
+       scanf("%d",&arr[i]);
+}
+ 
+ 
+ max =  (arr[0] > arr[1]) ? (arr[0] > arr[2] ? arr[0] : arr[2]) : (arr[1] > arr[2] ? arr[1] : arr[2]) ;
+  printf("\n Max of %d,%d,%d is :  %d ", arr[0],arr[1],arr[2],max);
+
+//getch();  
+   
+ }
+
